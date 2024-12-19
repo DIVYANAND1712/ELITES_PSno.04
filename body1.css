@@ -1,0 +1,96 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    background-color:gray;
+    color: white;
+    overflow: hidden;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main{
+    display: flex;
+    height:100vh;
+    padding: 0.5rem 0;
+
+}
+
+.sidebar{
+    background-color:black;
+    width:340px;
+    border-radius: 1rem; 
+    margin-right: 0.5rem;
+
+}
+
+.main-content{
+    background-color:gray;
+    flex:1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+/* ------------------------------------------------ */
+.buy-now {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.buy-now:hover {
+    background-color: #218838;
+}
+
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius: 0.5rem;
+    padding:0.5rem ;
+    margin-left: 1.5rem ;
+    margin-top: 1rem;
+
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width:100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.8rem;
+    opacity:0.65;
+}
+/* -------------------------------------------------- */
+.footer{
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width:90%;
+    height:30%;
+    border-top: 1px solid white;
+    opacity:0.4;
+}
+/* -------------------------------------------- */
